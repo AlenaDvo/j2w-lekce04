@@ -4,8 +4,8 @@
 <head>
     [#include '/_common/head.ftlh']
 </head>
-<body>
 
+<body>
 <div class="container">
     [#include '/_common/header.ftlh']
 
