@@ -34,14 +34,14 @@
                     <td>${ucastnik.jmeno}</td>
                     <td>${ucastnik.prijmeni}</td>
                     <td>[#if ucastnik.bydliste??]${ucastnik.bydliste}[#else]<em><small>neuvedeno</small></em>[/#if]</td>
-                    <td><a href="/ucastnici/detail/${ucastnik?index}" class="btn btn-primary">Detail</a></td>
+                    <td><a href="/ucastnici/${ucastnik?index}" class="btn btn-primary">Detail</a></td>
                 </tr>
             [/#items]
             </tbody>
         </table>
     [#else]
         <div>
-            <em>Seznam ucastniku je prázdný.</em>
+            <em>Seznam účastníků je prázdný.</em>
         </div>
     [/#list]
 </div>

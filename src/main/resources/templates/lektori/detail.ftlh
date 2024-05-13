@@ -18,6 +18,7 @@
             <p class="card-text">Role: ${lektor.role}</p>
         </div>
     </div>
+    <div><a href="/lektori/">Zpět na seznam lektorů</a></div>
 </div>
 </body>
 </html>

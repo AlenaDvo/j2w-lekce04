@@ -20,10 +20,11 @@
             [#if ucastnik.bydliste??]
                 <p class="card-text">Bydliště: ${ucastnik.bydliste}</p>
             [#else]
-                <p class="card-text">Bydliště: neuvedeno</p>
+                <p class="card-text"><small><em>Bydliště: neuvedeno</em></small></p>
             [/#if]
         </div>
     </div>
+    <div><a href="/ucastnici/">Zpět na seznam účastníků</a></div>
 </div>
 </body>
 </html>

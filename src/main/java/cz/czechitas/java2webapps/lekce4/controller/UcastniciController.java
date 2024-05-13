@@ -24,11 +24,13 @@ public class UcastniciController {
     @GetMapping("/")
     public ModelAndView seznam() {
         ModelAndView modelAndView = new ModelAndView("/ucastnici/index");
+//       prazndy seznam ucastniku
+//        modelAndView.addObject("ucastnici", List.of());
         modelAndView.addObject("ucastnici", seznamUcastniku);
         return modelAndView;
     }
 
-    @GetMapping("/detail/{index}")
+    @GetMapping("/{index}")
     public ModelAndView detail(@PathVariable int index) {
         ModelAndView modelAndView = new ModelAndView("/ucastnici/detail");
         modelAndView.addObject("ucastnik", seznamUcastniku.get(index));
