@@ -25,7 +25,7 @@ public class LektoriController {
         return modelAndView;
     }
 
-    @GetMapping("/detail/{id}")
+    @GetMapping("/{id}")
     public ModelAndView detail(@PathVariable int id) {
         ModelAndView modelAndView = new ModelAndView("/lektori/detail");
         modelAndView.addObject("lektor", seznamLektoru.get(id));

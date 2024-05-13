@@ -25,7 +25,7 @@
                     <td>${lektor?counter}</td>
                     <td>${lektor.jmeno} ${lektor.prijmeni}</td>
                     <td><i class="las la-bell"></i> ${lektor.role}</td>
-                    <td><a href="/lektori/detail/${lektor?index}" class="btn btn-primary">Detail</a></td>
+                    <td><a href="/lektori/${lektor?index}" class="btn btn-primary">Detail</a></td>
                 </tr>
             [/#items]
             </tbody>
